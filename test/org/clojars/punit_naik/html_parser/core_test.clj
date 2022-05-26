@@ -49,10 +49,9 @@
              {:message "inserting missing 'title' element", :allowed? true}]}))
     (is (= (hp/parse-html (hp/create-tidy-object) "<dev>punit naik</div>")
            {:parsed-output "",
-            :error-count 4,
+            :error-count 3,
             :warnings
-            [{:message "<dev> is not recognized!", :allowed? nil}
-             {:message "discarding unexpected <dev>", :allowed? nil}
+            [{:message "discarding unexpected <dev>", :allowed? nil}
              {:message "plain text isn't allowed in <head> elements",
               :allowed? true}
              {:message "discarding unexpected </div>", :allowed? nil}
