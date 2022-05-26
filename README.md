@@ -2,6 +2,8 @@
 
 A Clojure library designed to parse HTML string and return any errors and warnings while parsing
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.punit-naik/html-parser.svg)](https://clojars.org/org.clojars.punit-naik/html-parser)
+
 ## Usage
 
 ### Testing
