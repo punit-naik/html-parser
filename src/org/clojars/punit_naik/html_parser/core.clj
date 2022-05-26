@@ -20,7 +20,7 @@
   [error-output & allowed-warning-regexes]
   (keep
    (fn [error-text]
-     (when-let [warning-message (and (seq (re-matches #"line\s[0-9]+\scolumn\s[0-9]+.*"
+     (when-let [warning-message (and (seq (re-matches #"line\s[0-9]+\scolumn\s[0-9]+\s\-\sWarning.*"
                                                       error-text))
                                      (second (str/split error-text #"\:\s")))]
        {:allowed? (apply warning-allowed? warning-message allowed-warning-regexes)
