@@ -2,6 +2,7 @@
 
 A Clojure library designed to parse HTML string and return any errors and warnings while parsing
 
+[![CircleCI](https://circleci.com/gh/punit-naik/html-parser/tree/master.svg?style=svg)](https://circleci.com/gh/punit-naik/html-parser/tree/master)
 [![Clojars Project](https://img.shields.io/clojars/v/org.clojars.punit-naik/html-parser.svg)](https://clojars.org/org.clojars.punit-naik/html-parser)
 
 ## Usage
