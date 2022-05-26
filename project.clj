@@ -1,4 +1,4 @@
-(defproject org.clojars.punit-naik/html-parser "0.1.0"
+(defproject org.clojars.punit-naik/html-parser "1.0.0"
   :description "A Clojure library designed to parse HTML string and return any errors and warnings while parsing"
   :url "https://github.com/punit-naik/html-parser"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
